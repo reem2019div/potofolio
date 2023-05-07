@@ -1,0 +1,117 @@
+ 
+header{
+    background-color: rgb(45, 46, 46);
+}
+button{
+    background-color:rgba(13,110,253,.25);
+    font-size: 1.3em;
+    font-weight: 700;
+    border-radius: 50px;
+    border-color: transparent;
+    padding-top: 5px;
+    padding-left: 7px;
+    z-index: 999;
+    margin-left: 5px;
+    
+}
+h1 p{
+    font-size: .5em;
+}
+
+.defination{
+    width: 50%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    height: 500px;
+    position: absolute;
+    top:0px;
+    left:0px;
+     border-bottom-right-radius:300px;
+     transform: translateX(-100%);
+     transition: .7s ease-in-out;
+     z-index: 999;
+}
+.defination.active{
+    transform: translateX(0%);
+}
+.defination button{
+    position: absolute;
+    top:-1px;
+    right: 5px;
+    background-color: transparent;
+    color: blue;
+
+}
+nav{
+    padding: 10px;
+    border-radius: 50px;
+}
+nav div{
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.card{
+    margin:auto;
+    margin-top: 30px;
+    height: 300px;
+    text-align: center;
+}
+h5{
+    padding-top: 50px;
+    font-size: 1.6em;
+    font-weight: 500;
+}h6{
+    font-size: 1.6em;
+    font-weight: 500; 
+}
+.card-body a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.progress{
+    position: relative;
+    width: 90%;
+    height: 30px;
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+.progress span{
+    position: absolute;
+    top:0;
+    left: 0;
+ height: 100%;
+ background-color: blueviolet;
+ transition: width .3s linear;
+}
+.skills{
+    margin-top: 80px;
+}
+.skills h1{
+    margin-left: 50%;
+}
+.skills h5{
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.row a{
+    text-decoration: none;
+}
+.row h3{
+    height: 20%;
+    color: rgb(17, 52, 82);
+    margin-left: 100PX;
+    margin-top: 50px;
+    font-size: 2.3em;
+    font-weight: 500;
+}
+.con{
+    width: 70%;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 15%;
+}
